@@ -22,6 +22,8 @@ The X-ray Analysis System employs a deep learning model to analyze X-ray images 
 - Matplotlib
 - Seaborn
 - Streamlit
+- HTML
+- CSS
 
 ## Project Overview
 
