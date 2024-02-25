@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Ray Image Classification</title>
+</head>
+<body>
+    <h1>X-Ray Image Classification</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg">
+        <input type="submit" value="Submit">
+    </form>
+    {% if prediction %}
+        <p>{{ prediction }}</p>
+        <img src="data:image/png;base64,{{ img_base64 }}" alt="User Image">
+    {% endif %}
+</body>
+</html>
