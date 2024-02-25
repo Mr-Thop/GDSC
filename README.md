@@ -10,6 +10,9 @@ The Crop Prediction System utilizes machine learning models to recommend suitabl
 ### X-ray Analysis System
 The X-ray Analysis System employs a deep learning model to analyze X-ray images and predict the class of the image, such as Covid, Normal, Pneumonia, or Tuberculosis. Users can upload X-ray images to the system, and the predicted class, along with the image, will be displayed.
 
+### Disease Prediction System
+The User can Enter the Required Inputs and our Machine learning model to predict diseases based on the input parametres like BP, Chest Pain type etc... Users Can input the values and recive the predictions which is not for sure but basing on the recommendation of a Doctor.
+
 
 ## Technologies Used
 
@@ -68,4 +71,6 @@ The project consists of the following components:
 
 - Make Sure that you include all the .pkl and .h5 files within the directory of homepage.py
 - Wait Till the Model Loads as it may Take time to load itself (around 3 mins for each)
+
+- With all the WebPage Folder Downloaded you can Run the Index.html file in order to run the file.
 
